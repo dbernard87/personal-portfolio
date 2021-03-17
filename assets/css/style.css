@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:active {
+    color: rgb(255, 100, 80);
+}
+
+header {
+    display: inline-flex;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    color: white;
+    font-size: 1.7rem;
+    z-index: 1;
+    padding-bottom: 2px;
+}
+
+header p {
+   flex: 1;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav li {
+    display: inline-flex;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+header nav li a {
+    font-size: 28px;
+    margin-right: 15px;
+    font-size: 1.7rem;
+    margin-bottom: 4px;
+}
+
+.fas {
+    color: rgb(255, 100, 80);
+    margin-right: 6px;
+    font-size: 1.2rem;
+    margin-top: 6px;
+}
+
+#dbPeriod {
+    color:rgb(36, 36, 36);
+}
+
+#dbInitials {
+    flex: 1;
+    line-height: 38px;
+    background-color: rgb(255, 100, 80);
+    padding: 4px 9px 4px 7px;
+    margin-left: 30px;
+    margin-right: -5px;
+    border-radius: 2px;
+}
+
+#dbInitials:hover {
+    color: white;
+}
+
+#dbName {
+    flex: 1;
+    padding: 8px;
+    line-height: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mainContent {
+    width: 100%;
+}
+
+.sectionOne {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url("https://ploughshares.ca/wp-content/uploads/2019/11/blue-universe-956981-1500x844.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(36, 36, 36, 0.6);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#learnButton {
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(255, 100, 80);
+    border-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+#learnButton:hover {
+    background-color: rgb(255, 83, 60);
+}
+
+.contentOne {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(36, 36, 36, 0.6);
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionTwo {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: rgb(36, 36, 36);
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.contentTwo {
+    margin-top: 100px;
+}
+
+.portfolioGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.portfolioGrid h4 {
+    margin-bottom: 20px;
+}
+
+.portfolioGrid p {
+    font-size: 1.3rem;
+}
+
+.gridText {
+    background-color:rgba(36, 36, 36, 0.8);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.portfolioCard {
+    background-color: rgba(36, 36, 36, 0.6);
+    border-radius: 5px;
+    flex: 1 1 auto;
+    margin: 10px;
+    width: 35%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    margin-top: 20px; 
+}
+
+.portfolioCard:hover {
+    color: rgb(255, 100, 80);
+    background-color: rgba(36, 36, 36, 0.5);
+}
+
+#portCard {
+    background-image: url(/Users/dbern/Desktop/Portfolio\ Project/portfoliowebsite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#portCard:hover {
+    background-color: rgba(36, 36, 36, 0.5);
+}
+
+#hexCard {
+    background-image: url(/Users/dbern/Desktop/Portfolio\ Project/hexcms.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#hexCard:hover {
+    background-color: rgba(36, 36, 36, 0.5);
+}
+
+.sectionThree {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:whitesmoke;
+    text-align: center;
+    color: rgb(36, 36, 36);
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+.sectionFour {
+    height: 100vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    color: rgb(36, 36, 36);
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    justify-content: center;
+}
