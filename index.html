@@ -35,9 +35,7 @@
             </div>
         </section>
         <section class="sectionTwo" id="sectionTwo">
-            <div class="contentTwo">
-                <h1>Portfolio</h1>
-            </div>
+            <h1>Portfolio</h1>
             <div class="portfolioGrid">
                 <div class="portfolioCard" id="portCard">
                     <div class="gridText">
@@ -72,13 +70,13 @@
             </div>
         </section>
         <section class="sectionThree" id="sectionThree">
+            <h1>About</h1>
             <div class="contentThree">
-                <h1>About</h1>
                 <p>Hello! I'm David Bernard, a student in the UNH Full Stack Bootcamp course. I started writing HTML in the late 90's during the Half Life modding days, and my passion for web design has continued to this day. I have expanded my knowledge of HTML, as well as learning CSS and Javascript. I also have knowledge of Wordpress based websites and hosting services. I continue to learn these important skills and always look forward to learning something new!</p>
                 <p>My goal is to build clean, functional, and responsive websites that work on any of today's changing technology. I understand the importance of making my work available to users on any device.</p>
             </div> 
-            <div>
-                <p>Skills</p>   
+            <div class="skillList">
+                <h2>Skills</h2>   
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -91,14 +89,30 @@
                     <li>Adobe Illustrator</li>
                 </ul>
             </div>
-            <div>
-                <p>Personal Life</p>
+            <div class="personalLife">
+                <h2>Personal Life</h2>
                 <p>When im not working on web development, im spending time with my wife Dana and our two boxers Gunner and Lexi. I'm also and an avid motorsports enthusiast, who has built and driven racecars and look forward to continuing that journey. I currently reside in Southern Maine, but will be relocating to Nashville, TN.</p>
             </div>
         </section>
         <section class="sectionFour" id="sectionFour">
+            <h1>Contact</h1>
             <div class="contentFour">
-                <h1>Contact Content Area</h1>
+                <div class="myInfo">
+                    My info here.
+                </div>
+                <div class="formSection">
+                    <form>
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      <label for="email">Email</label>
+                      <input type="text" id="email" name="email" placeholder="Your email address..">
+                      <label for="subject">How can I help you?</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      <input type="submit" value="Submit">
+                    </form>
+                </div>  
             </div>
         </section>
     </main>
