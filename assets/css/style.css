@@ -254,8 +254,8 @@ main {
 
 .sectionThree h2 {
     text-align: center;
-    margin-bottom: 20px;
     font-size: 2rem;
+    margin-top: 50px;
 }
 
 .contentThree {
@@ -267,6 +267,8 @@ main {
     margin-top: 20px;
     text-align: left;
     font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
 }
 
 .skillList ul {
@@ -274,9 +276,12 @@ main {
 }
 
 .personalLife {
-    margin-top: 20px;
     width: 70%;
     font-size: 1.5rem;
+}
+
+.personalLife h2 {
+    margin-bottom: 50px;
 }
 
 .sectionFour {
