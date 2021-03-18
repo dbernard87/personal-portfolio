@@ -154,12 +154,11 @@ main {
 
 .portfolioGrid {
     display: flex;
-    flex-wrap: wrap;
     width: 90%;
+    flex-wrap: wrap;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    justify-content: center;
 }
 
 .portfolioGrid h4 {
@@ -183,12 +182,12 @@ main {
     background-color: rgba(36, 36, 36, 0.6);
     border-radius: 5px;
     flex: 1 1 auto;
-    margin: 10px;
-    width: 35%;
+    width: 60%;
     padding-top: 50px;
     padding-bottom: 50px;
-    color: white;
-    margin-top: 20px; 
+    color: white; 
+    height: 800px;
+    margin-top: 20px;
 }
 
 .portfolioCard:hover {
@@ -212,10 +211,27 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    width: 50%;
 }
 
 #hexCard:hover {
     background-color: rgba(36, 36, 36, 0.5);
+}
+
+#chattanoogaCard {
+    background-image: url(/Users/dbern/Desktop/Portfolio\ Project/chattanoogawebsite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 50%;
+}
+
+#ccsiCard {
+    background-image: url(/Users/dbern/Desktop/Portfolio\ Project/ccsiwebsite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 50%;
 }
 
 .sectionThree {
@@ -231,6 +247,18 @@ main {
 }
 
 .sectionFour {
+    height: 100vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    color: rgb(36, 36, 36);
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+.sectionFive {
     height: 100vh;
     width: 100%;
     margin-left: auto;
