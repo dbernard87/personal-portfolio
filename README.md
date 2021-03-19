@@ -3,7 +3,7 @@
 
 ## Description
 
-Basic outline of my personal developer portfolio, built with HTML5, CSS, and Javascript. The website was built using semantic HTML and CSS Flexbox for full repsponsive design. Basic jQuery used for header styling on mouse scroll, Scrollify for testing purposes. Please note Scrollify is being used for development purposes to build around 100vh. My goal is to have my own Javascript implemented for scroll snap once the website is ready to be deployed to my .dev URL.
+Basic outline of my personal developer portfolio, built with HTML5, CSS, and Javascript. The website was built using semantic HTML and CSS Flexbox for fully responsive design. Basic jQuery used for header styling on mouse scroll, Scrollify for testing purposes. Please note Scrollify is being used for development purposes to build around 100vh. My goal is to have my own Javascript implemented for scroll snap once the website is ready to be deployed to my .dev URL.
 
 In the portfolio section, I have used some projects I have been working on for placeholders. All examples are very basic outlines, and are used for examples of projects and live URL's.
 
