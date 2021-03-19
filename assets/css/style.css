@@ -1,3 +1,4 @@
+/*--------- Global Variables ---------*/
 :root {
     --primaryColor: rgb(255, 100, 80);
     --backgroundOne: white;
@@ -430,6 +431,8 @@ footer {
 }
 
 /*--------- Media Queries Start Here ---------*/
+
+/*--------- Media Query up to 539px ---------*/
 @media screen and (max-width: 539px) {
     header {
         display: flex;
