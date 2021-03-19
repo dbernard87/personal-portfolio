@@ -1,5 +1,14 @@
 $(document).ready(function(){
   
+   $(window).on("scroll", function() {
+      if ($(this).scrollTop() > 100) {
+         $("header").css("background","rgba(36, 36, 36, 0.9)");
+      }
+      else {
+         $("header").css("background","transparent");
+      }
+   });
+
   $.scrollify({
     section : ".sectionOne, .sectionTwo, .sectionThree, .sectionFour, .sectionFive",
     interstitialSection : "footer",
@@ -21,14 +30,4 @@ $(document).ready(function(){
     afterRender:function() {}
    */
   });
- 
-  $(window).on("scroll", function() {
-     if ($(this).scrollTop() > 100) {
-        $("header").css("background","rgba(36, 36, 36, 0.9)");
-     }
-     else {
-        $("header").css("background","transparent");
-     }
-  });
- 
 });

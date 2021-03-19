@@ -1,9 +1,11 @@
+/*--------- Global Settings ---------*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/*--------- Body Settings ---------*/
 body {
     height: 100vh;
     width: 100%;
@@ -11,6 +13,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/*--------- Link Settings ---------*/
 a {
     text-decoration: none;
     color: white;
@@ -20,6 +23,7 @@ a:hover, a:active {
     color: rgb(255, 100, 80);
 }
 
+/*--------- Header Settings ---------*/
 header {
     display: inline-flex;
     width: 100%;
@@ -34,6 +38,8 @@ header {
 header p {
    flex: 1;
 }
+
+/*--------- Header Navigation Settings ---------*/
 
 header nav {
     margin-left: auto;
@@ -59,6 +65,8 @@ header nav li a {
     margin-top: 6px;
 }
 
+/*--------- Header Badge Settings ---------*/
+
 #dbPeriod {
     color:rgb(36, 36, 36);
 }
@@ -83,6 +91,7 @@ header nav li a {
     line-height: 25px;
 }
 
+/*--------- Main Settings ---------*/
 main {
     display: flex;
     flex-direction: column;
@@ -93,6 +102,7 @@ main {
     width: 100%;
 }
 
+/*--------- Section One Settings ---------*/
 .sectionOne {
     height: 100vh;
     width: 100%;
@@ -135,12 +145,70 @@ main {
     justify-content: center;
 }
 
+/*--------- Section Two Settings ---------*/
 .sectionTwo {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    text-align: center;
+    color: rgb(36, 36, 36);
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sectionTwo h1 {
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+
+.sectionTwo h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.contentTwo {
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.skillList {
+    text-align: left;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillList ul {
+    padding-top: 20px;
+}
+
+#list {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#list h3 {
+    margin-bottom: 50px;
+}
+
+.personalLife {
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+/*--------- Section Three Settings ---------*/
+.sectionThree {
     height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #f2f2f2;
+    background-color: white;
     color: rgb(36, 36, 36);
     font-size: 2.5rem;
     text-align: center;
@@ -148,6 +216,11 @@ main {
     padding-bottom: 100px;
 }
 
+.sectionThree h1 {
+    margin-bottom: 50px;
+}
+
+/*--------- Portfolio Grid Settings ---------*/
 .portfolioGrid {
     display: flex;
     flex-wrap: wrap;
@@ -167,6 +240,7 @@ main {
     padding: 20px;
 }
 
+/*--------- Portfolio Card Settings ---------*/
 .portfolioCard {
     background-color: rgba(36, 36, 36, 0.6);
     border-radius: 5px;
@@ -229,60 +303,7 @@ main {
     width: 23%;
 }
 
-.sectionThree {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color:white;
-    text-align: center;
-    color: rgb(36, 36, 36);
-    justify-content: center;
-}
-
-.sectionThree h1 {
-    font-size: 3.5rem;
-    margin-bottom: 50px;
-}
-
-.sectionThree h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    margin-top: 100px;
-}
-
-.contentThree {
-    width: 80%;
-    font-size: 1.5rem;
-}
-
-.skillList {
-    text-align: left;
-    font-size: 1.5rem;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.skillList ul {
-    padding-top: 20px;
-}
-
-#list {
-  margin-right: 50px;
-  margin-left: 50px;
-}
-
-#list h3 {
-    margin-bottom: 50px;
-}
-
-.personalLife {
-    width: 80%;
-    font-size: 1.5rem;
-}
-
+/*--------- Section Four Settings ---------*/
 .sectionFour {
     height: 100vh;
     width: 100%;
@@ -295,6 +316,23 @@ main {
     color: rgb(36, 36, 36);
     font-size: 2.5rem;
     justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sectionFour h1 {
+    margin-bottom: 50px;
+}
+
+.myInfo {
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+/*--------- Form Settings ---------*/
+label {
+    font-size: 24px;
 }
 
 input[type=text], select, textarea {
@@ -327,6 +365,7 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
+/*--------- Footer Settings ---------*/
 footer {
     height: 250px;
     width: 100%;
