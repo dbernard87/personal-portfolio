@@ -323,6 +323,14 @@ main {
     width: 45%;
 }
 
+#printerCard {
+    background-image: url(/Users/dbern/Desktop/Portfolio\ Project/3dpswebsite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 45%;
+}
+
 /*--------- Section Four Settings ---------*/
 .sectionFour {
     height: 100vh;

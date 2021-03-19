@@ -1,0 +1,119 @@
+/*---- Global Settings ----*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+  }
+  
+
+
+/*---- Header ----*/
+
+.header-div {
+    display: flex;
+    position: fixed; top: 0; left: 0; right: 0;
+    width: 100%;
+    background-color: rgba(40, 40, 40, .8);
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+
+.header-div h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+.header-logo-div {
+    flex: 48%;
+    padding-left: 25px;
+    color: white;
+}
+
+.header-nav-div {
+    flex: 48%;
+    text-align: end;
+    padding-right: 30px;
+    word-spacing: 40px;
+}
+
+.header-nav-div li {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-around;
+}
+
+.header-nav-div a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.header-nav-div a:hover {
+    color: darkgray;
+}
+
+.header-nav-div a:active {
+    color: darkgrey;
+}
+
+.header-button {
+    flex: 4%;
+    padding-top: 1px;
+    padding-right: 30px;
+    padding-left: 20px;
+    text-align: end;
+}
+
+#contact-button {
+    background-color: rgb(255, 132, 0);
+    padding: 10px 24px 8px 24px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#contact-button:hover {
+    background-color: rgb(236, 122, 0);
+}
+
+
+/*---- Main ----*/
+
+.main-div {
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #949494;
+    height: 100%;
+}
+
+
+/*---- Section ----*/
+
+.section-div {
+    background-color: lightgray;
+    height: 100%;
+}
+
+
+/*---- Footer ----*/
+
+.footer-div {
+    background-color: rgb(40, 40, 40);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    bottom: 0;
+}

@@ -1,0 +1,308 @@
+/*--------------------- Main Settings Start Here ---------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------- Main Settings End Here ----------------------*/
+
+
+/*------------------------ Header Starts Here ------------------------*/
+
+.top-header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: -0.5px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+#fascubes {
+    color: rgb(245, 20, 80);
+    padding-right: 5px;
+}
+
+h1 {
+    padding-top: 3px;
+    float: left;
+}
+
+h1 a {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+h1 a:hover {
+    color: rgb(255, 17, 79);
+}
+
+.header-left {
+    order: 1;
+    flex: 9%;
+}
+
+.header-center {
+    order: 2;
+    flex: 3;
+}
+
+.header-right {
+    order: 3;
+    flex: 6%;
+}
+
+.search-input {
+    margin: 0;
+    width: 90%;
+    border: 0;
+    overflow: auto;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+#fassearch {
+    background-color: rgb(255, 17, 79);
+    padding: 9px 12px 12px 10px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+#fassearch:hover {
+    background-color: rgb(245, 20, 80);
+}
+
+.user {
+    margin-right: 20px;
+    margin-top: 4px;
+    float: right;
+}
+
+.user a {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-size: 22px;
+}
+
+.user a:hover {
+    color: rgb(255, 17, 79);
+}
+
+.user a:active {
+    color: rgb(255, 17, 79);
+}
+
+.bottom-header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(61, 61, 61);
+    font-family: 'Bebas Neue', cursive; 
+    padding-top: 12px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    margin-top: 65px;
+}
+
+.main-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.main-nav a:hover {
+    color: rgb(255, 17, 79);
+}
+
+.main-nav a:active {
+    color: white;
+}
+
+/*------------------------- Header Ends Here -------------------------*/
+
+
+/*------------------------- Main Starts Here -------------------------*/
+
+.main {
+    background-color: rgb(228, 228, 228);
+    color: rgb(61, 61, 61);
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.main p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-------------------------- Main Ends Here --------------------------*/
+
+
+/*------------------------- Grid Starts Here -------------------------*/
+
+.grid {
+    background-color: white;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    padding-top: 500px;
+    padding-bottom: 500px;
+}
+
+.grid p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-------------------------- Grid Ends Here --------------------------*/
+
+
+/*----------------------- Footer Starts Here -------------------------*/
+
+.footer {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.footer p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------------ Footer Ends Here --------------------------*/
+
+
+/*------------------- Mobile Settings Start Here ---------------------*/
+
+#fascubes2 {
+    color:rgb(245, 20, 80);
+    padding-right: 5px;
+}
+
+.mobile-top-header {
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: -0.5px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.mobile-bottom-header {
+    margin-top: 76px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(61, 61, 61);
+    font-family: 'Bebas Neue', cursive; 
+}
+
+.mobile-bottom-header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.mobile-bottom-header a:hover {
+    color:rgb(245, 20, 80)
+}
+
+.mobile-header-left {
+    margin-left: 90px;
+}
+
+.mobile-user {
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-left: 150px;
+}
+
+.mobile-nav {
+    margin-left: 24px;
+    padding-bottom: 10px;
+    padding-top: 4px;
+}
+
+.mobile-nav a {
+    font-size: 14px;
+}
+
+.mobile-h1 a {
+    font-size: 40px;
+}
+
+/*-------------------- Mobile Settings End Here ----------------------*/
+
+
+/*---------------- Do Not Remove! @media will break! -----------------*/
+
+@media(min-width: 1px) {
+    .mobile-top-header {display: none}
+    .mobile-bottom-header {display: none}
+    .top-header {display: flex}
+    .bottom-header {display: flex}
+}
+
+/*---------------- Do Not Remove! @media will break! -------------------*/
+
+
+/*--------------------- @media Queries Start Here ----------------------*/
+
+@media(max-width: 500px) {
+    .mobile-top-header {display: flex}
+    .mobile-bottom-header {display: flex}
+}
+
+@media(max-width: 767px) {
+    .top-header {display: none}
+    .bottom-header {display: none}
+}
+
+@media(max-width: 1023px) {
+    .top-header {display: none}
+    .bottom-header {display: none}
+}
+
+@media(max-width: 1365px) {
+    .top-header {display: none}
+    .bottom-header {display: none}
+}
+
+@media(max-width: 1920) {
+    .top-header {display: none}
+    .bottom-header {display: none}
+}
+
+@media(min-width: 1921px) {
+    .top-header {display: flex}
+    .bottom-header {display: flex}
+}
+
+/*---------------------- @media Queries End Here -----------------------*/
