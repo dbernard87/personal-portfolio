@@ -3,14 +3,13 @@ $(document).ready(function(){
    $(window).on("scroll", function() {
       if ($(this).scrollTop() > 100) {
          $("header").css("background","rgba(36, 36, 36, 0.9)");
-      }
-      else {
+      } else {
          $("header").css("background","transparent");
       }
    });
 
   $.scrollify({
-    section : ".sectionOne, .sectionTwo, .sectionThree, .sectionFour, .sectionFive",
+    section : ".sectionOne, .sectionTwo, .sectionThree, .sectionFour",
     interstitialSection : "footer",
     touchScroll: true,
     /*
@@ -30,4 +29,5 @@ $(document).ready(function(){
     afterRender:function() {}
    */
   });
+  
 });

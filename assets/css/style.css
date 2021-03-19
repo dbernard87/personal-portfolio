@@ -40,7 +40,6 @@ header p {
 }
 
 /*--------- Header Navigation Settings ---------*/
-
 header nav {
     margin-left: auto;
 }
@@ -61,12 +60,11 @@ header nav li a {
 .fas {
     color: rgb(255, 100, 80);
     margin-right: 6px;
-    font-size: 1.2rem;
-    margin-top: 6px;
+    font-size: 1.1rem;
+    margin-top: 8px;
 }
 
 /*--------- Header Badge Settings ---------*/
-
 #dbPeriod {
     color:rgb(36, 36, 36);
 }
@@ -232,7 +230,6 @@ main {
 }
 
 .gridText {
-    background-color:rgba(36, 36, 36, 0.8);
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -242,6 +239,7 @@ main {
 
 /*--------- Portfolio Card Settings ---------*/
 .portfolioCard {
+    background-blend-mode: overlay;
     background-color: rgba(36, 36, 36, 0.6);
     border-radius: 5px;
     flex: 1 1 auto;
@@ -256,7 +254,7 @@ main {
 
 .portfolioCard:hover {
     color: rgb(255, 100, 80);
-    background-color: rgba(36, 36, 36, 0.5);
+    background-color: rgba(36, 36, 36, 0.1);
 }
 
 #portCard {
@@ -264,10 +262,6 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-}
-
-#portCard:hover {
-    background-color: rgba(36, 36, 36, 0.5);
 }
 
 .portSecond {
@@ -396,7 +390,6 @@ footer {
 }
 
 .codeNames p {
-    
     margin-right: 10px;
     margin-left: 10px;
 }
@@ -406,3 +399,5 @@ footer {
     height: 50px;
     width: auto;
 }
+
+/*--------- Media Queries Start Here ---------*/
