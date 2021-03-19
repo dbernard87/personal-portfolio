@@ -158,6 +158,11 @@ main {
     padding-bottom: 100px;
 }
 
+.twoResize {
+    width: 60%;
+    text-align: center;
+}
+
 .sectionTwo h1 {
     font-size: 3.5rem;
     margin-bottom: 50px;
@@ -171,7 +176,7 @@ main {
 }
 
 .contentTwo {
-    width: 80%;
+    width: 100%;
     font-size: 1.5rem;
 }
 
@@ -180,6 +185,7 @@ main {
     font-size: 1.5rem;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 63px;
 }
 
 .skillList ul {
@@ -193,10 +199,11 @@ main {
 
 #list h3 {
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .personalLife {
-    width: 80%;
+    width: 100%;
     font-size: 1.5rem;
 }
 
@@ -212,6 +219,12 @@ main {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.threeResize {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sectionThree h1 {
@@ -274,7 +287,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    width: 23%;
+    width: 45%;
 }
 
 #hexCard:hover {
@@ -286,7 +299,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    width: 23%;
+    width: 45%;
 }
 
 #ccsiCard {
@@ -294,7 +307,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    width: 23%;
+    width: 45%;
 }
 
 /*--------- Section Four Settings ---------*/
@@ -312,6 +325,10 @@ main {
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.fourResize {
+    width: 60%;
 }
 
 .sectionFour h1 {
