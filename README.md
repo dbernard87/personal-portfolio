@@ -27,6 +27,7 @@ To view the website, click the link to the index.html file located in the Github
 
 - David Bernard : [https://github.com/dbernard87]
 - Luke Hass (Scrollify jQuery script) : [https://projects.lukehaas.me/scrollify/#home]
+- Background Photo by Philippe Donn from Pexels [https://www.pexels.com/photo/milky-way-illustration-1169754/]
 - Stack Overflow : [https://stackoverflow.com/]
 - w3schools : [https://www.w3schools.com/]
 

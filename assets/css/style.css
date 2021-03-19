@@ -119,12 +119,12 @@ main {
     width: 100%;
     display: flex;
     align-items: center;
-    background-image: url("https://ploughshares.ca/wp-content/uploads/2019/11/blue-universe-956981-1500x844.jpg");
+    background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode: overlay;
-    background-color: rgba(36, 36, 36, 0.6);
+    background-color: rgba(36, 36, 36, 0);
     color: var(--backgroundOne);
     font-size: 3rem;
     text-align: center;
