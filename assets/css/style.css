@@ -418,3 +418,34 @@ footer {
 }
 
 /*--------- Media Queries Start Here ---------*/
+
+@media screen and (max-width: 829px) {
+    
+    .twoResize, .threeResize, .fourResize {
+        width: 90%;
+    }
+
+    .skillList {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skillList ul li {
+        text-align: left;
+        list-style-position: inside;
+        list-style-type: square;
+        margin-left: 120px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #list h3 {
+        margin-bottom: 0;
+    }
+
+    #hexCard, #chattanoogaCard, #ccsiCard {
+        width: 90%;
+    }
+
+}
