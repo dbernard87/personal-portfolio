@@ -159,7 +159,7 @@ main {
 }
 
 .twoResize {
-    width: 60%;
+    width: 70%;
     text-align: center;
 }
 
@@ -185,7 +185,7 @@ main {
     font-size: 1.5rem;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 63px;
+    justify-content: center;
 }
 
 .skillList ul {
@@ -328,7 +328,7 @@ main {
 }
 
 .fourResize {
-    width: 60%;
+    width: 70%;
 }
 
 .sectionFour h1 {
