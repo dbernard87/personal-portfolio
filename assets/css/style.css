@@ -33,15 +33,20 @@ header {
     font-size: 1.7rem;
     z-index: 1;
     padding-bottom: 2px;
+    justify-content: space-between;
 }
 
 header p {
    flex: 1;
 }
 
+.nameBadge {
+    display: flex;
+}
+
 /*--------- Header Navigation Settings ---------*/
 header nav {
-    margin-left: auto;
+    display: inline-flex;
 }
 
 header nav li {
@@ -77,6 +82,7 @@ header nav li a {
     margin-left: 30px;
     margin-right: -5px;
     border-radius: 2px;
+    margin-top: 10px;
 }
 
 #dbInitials:hover {
@@ -418,9 +424,81 @@ footer {
 }
 
 /*--------- Media Queries Start Here ---------*/
+@media screen and (max-width: 539px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+    }
 
-@media screen and (max-width: 829px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 200px;
+        text-align: center;
+    }
+
+    header nav li {
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+
+    #dbName {
+        flex: 1;
+        text-align: left;
+        line-height: 25px;
+    }
+
+    #hexCard, #chattanoogaCard, #ccsiCard {
+        width: 90%;
+    }
     
+    .twoResize, .threeResize, .fourResize {
+        width: 90%;
+    }
+}
+
+/*--------- Media Query 540px to 767px ---------*/
+@media screen and (min-width: 540px) and (max-width: 767px) {
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+
+    header nav li {
+        margin-left: 25px;
+    }
+
+    #dbName {
+        flex: 1;
+        text-align: left;
+        line-height: 25px;
+    }
+
+    #hexCard, #chattanoogaCard, #ccsiCard {
+        width: 90%;
+    }
+
+    .twoResize, .threeResize, .fourResize {
+        width: 90%;
+    }
+}
+
+/*--------- Media Query 768px to 960px ---------*/
+@media screen and (min-width: 768px) and (max-width: 960px) {
+
     .twoResize, .threeResize, .fourResize {
         width: 90%;
     }
@@ -436,6 +514,36 @@ footer {
         list-style-position: inside;
         list-style-type: square;
         margin-left: 120px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #list h3 {
+        margin-bottom: 0;
+    }
+
+    #hexCard, #chattanoogaCard, #ccsiCard {
+        width: 90%;
+    }
+
+}
+
+/*--------- Media Query 960px to 1200px ---------*/
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+    
+    .twoResize, .threeResize, .fourResize {
+        width: 90%;
+    }
+
+    .skillList {
+        display: flex;
+        text-align: center;
+    }
+
+    .skillList ul li {
+        text-align: left;
+        list-style-position: inside;
+        list-style-type: square;
         padding-top: 5px;
         padding-bottom: 5px;
     }
