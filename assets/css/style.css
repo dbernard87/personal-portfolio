@@ -136,35 +136,22 @@ main {
 }
 
 .sectionTwo {
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     background-color: #f2f2f2;
     color: rgb(36, 36, 36);
     font-size: 2.5rem;
     text-align: center;
-    padding-top: 130px;
-    padding-bottom: 150px;
-}
-
-.contentTwo {
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .portfolioGrid {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    justify-content: space-evenly;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.portfolioGrid h4 {
-    margin-bottom: 20px;
+    width: 100%;
 }
 
 .portfolioGrid p {
@@ -173,7 +160,7 @@ main {
 
 .gridText {
     background-color:rgba(36, 36, 36, 0.8);
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
@@ -184,12 +171,12 @@ main {
     background-color: rgba(36, 36, 36, 0.6);
     border-radius: 5px;
     flex: 1 1 auto;
-    width: 60%;
+    flex-wrap: wrap;
+    width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     color: white; 
     height: 800px;
-    margin-top: 20px;
     margin: 10px;
 }
 
@@ -211,6 +198,7 @@ main {
 
 .portSecond {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #hexCard {
@@ -218,7 +206,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    width: 50%;
+    width: 23%;
 }
 
 #hexCard:hover {
@@ -230,7 +218,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    width: 50%;
+    width: 23%;
 }
 
 #ccsiCard {
@@ -238,7 +226,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    width: 50%;
+    width: 23%;
 }
 
 .sectionThree {
@@ -251,34 +239,30 @@ main {
     text-align: center;
     color: rgb(36, 36, 36);
     justify-content: center;
-    padding-top: 150px;
-    padding-bottom: 100px;
 }
 
 .sectionThree h1 {
     font-size: 3.5rem;
     margin-bottom: 50px;
-    margin-top: -40px;
 }
 
 .sectionThree h2 {
     text-align: center;
     font-size: 2rem;
-    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-top: 100px;
 }
 
 .contentThree {
-    width: 70%;
+    width: 80%;
     font-size: 1.5rem;
 }
 
 .skillList {
-    margin-top: 20px;
     text-align: left;
     font-size: 1.5rem;
     display: flex;
-
-
+    flex-wrap: wrap;
 }
 
 .skillList ul {
@@ -286,22 +270,17 @@ main {
 }
 
 #list {
-    margin-left: 50px;
-    margin-right: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 #list h3 {
-    margin-bottom: 20px;
-    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 .personalLife {
-    width: 70%;
+    width: 80%;
     font-size: 1.5rem;
-}
-
-.personalLife h2 {
-    margin-bottom: 30px;
 }
 
 .sectionFour {
@@ -316,11 +295,6 @@ main {
     color: rgb(36, 36, 36);
     font-size: 2.5rem;
     justify-content: center;
-    padding-top: 50px;
-}
-
-.sectionFour h1 {
-    margin-bottom: 40px;
 }
 
 input[type=text], select, textarea {

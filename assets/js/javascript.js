@@ -19,7 +19,7 @@ $(document).ready(function(){
     after:function() {},
     afterResize:function() {},
     afterRender:function() {}
-    */
+   */
   });
  
   $(window).on("scroll", function() {
