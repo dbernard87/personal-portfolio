@@ -10,7 +10,7 @@ In the portfolio section, I have used some projects I have been working on for p
 
 ## Usage
 
-To view the website, click the link to the index.html file located in the Github repository personal-portfolio. [https://dbernard87.github.io/personal-portfolio/index.html]
+To view the website, click the link to the Github repository personal-portfolio. [https://dbernard87.github.io/personal-portfolio/]
 
 ![image of website homepage](assets/images/screenshot.png)
 

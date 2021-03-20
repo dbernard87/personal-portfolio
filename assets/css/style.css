@@ -285,7 +285,7 @@ main {
 }
 
 #portCard {
-    background-image: url(/Users/dbern/Desktop/Portfolio\ Project/portfoliowebsite.png);
+    background-image: url(https://raw.githubusercontent.com/dbernard87/personal-portfolio/main/assets/images/portfoliowebsite.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -297,7 +297,7 @@ main {
 }
 
 #hexCard {
-    background-image: url(/Users/dbern/Desktop/Portfolio\ Project/hexcms.png);
+    background-image: url(https://raw.githubusercontent.com/dbernard87/personal-portfolio/main/assets/images/hexcms.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -309,7 +309,7 @@ main {
 }
 
 #chattanoogaCard {
-    background-image: url(/Users/dbern/Desktop/Portfolio\ Project/chattanoogawebsite.png);
+    background-image: url(https://raw.githubusercontent.com/dbernard87/personal-portfolio/main/assets/images/chattanoogawebsite.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -317,7 +317,7 @@ main {
 }
 
 #ccsiCard {
-    background-image: url(/Users/dbern/Desktop/Portfolio\ Project/ccsiwebsite.png);
+    background-image: url(https://raw.githubusercontent.com/dbernard87/personal-portfolio/main/assets/images/ccsiwebsite.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -325,7 +325,7 @@ main {
 }
 
 #printerCard {
-    background-image: url(/Users/dbern/Desktop/Portfolio\ Project/3dpswebsite.png);
+    background-image: url(https://raw.githubusercontent.com/dbernard87/personal-portfolio/main/assets/images/3dpswebsite.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
