@@ -39,7 +39,7 @@ header {
     color: white;
     font-size: 1.7rem;
     z-index: 1;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
     justify-content: space-between;
 }
 
@@ -66,7 +66,6 @@ header nav li a {
     font-size: 28px;
     margin-right: 15px;
     font-size: 1.7rem;
-    margin-bottom: 4px;
 }
 
 .fas {
@@ -94,6 +93,7 @@ header nav li a {
 
 #dbInitials:hover {
     color: white;
+    background-color: rgb(255, 83, 60);
 }
 
 #dbName {
@@ -358,13 +358,13 @@ main {
 
 .myInfo {
     text-align: center;
-    font-size: 24px;
+    font-size: 1.4rem;
     line-height: 40px;
 }
 
 /*--------- Form Settings ---------*/
 label {
-    font-size: 24px;
+    font-size: 1.4rem;
 }
 
 input[type=text], select, textarea {
@@ -385,6 +385,8 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: bold;
   }
   
   input[type=submit]:hover {
