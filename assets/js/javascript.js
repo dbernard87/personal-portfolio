@@ -11,7 +11,7 @@ $(document).ready(function(){
   $.scrollify({
     section : ".sectionOne, .sectionTwo, .sectionThree, .sectionFour",
     interstitialSection : "footer",
-    touchScroll: true,
+    touchScroll: false,
     /*
     sectionName : "",
     easing: "easeOutExpo",
